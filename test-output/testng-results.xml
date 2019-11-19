@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="14056" started-at="2019-11-14T12:01:19Z" finished-at="2019-11-14T12:01:33Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="14056" started-at="2019-11-14T12:01:19Z" finished-at="2019-11-14T12:01:33Z">
+      <class name="tests.RedLineViewPageTest">
+        <test-method status="PASS" signature="initialization()[pri:0, instance:tests.RedLineViewPageTest@47c62251]" name="initialization" is-config="true" duration-ms="10866" started-at="2019-11-14T17:31:08Z" finished-at="2019-11-14T17:31:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialization -->
+        <test-method status="PASS" signature="initializePage()[pri:0, instance:tests.RedLineViewPageTest@47c62251]" name="initializePage" is-config="true" duration-ms="33" started-at="2019-11-14T17:31:19Z" finished-at="2019-11-14T17:31:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializePage -->
+        <test-method status="PASS" signature="startReport(java.lang.reflect.Method)[pri:0, instance:tests.RedLineViewPageTest@47c62251]" name="startReport" is-config="true" duration-ms="2" started-at="2019-11-14T17:31:19Z" finished-at="2019-11-14T17:31:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.RedLineViewPageTest.T001_VerifyDocumentNames()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startReport -->
+        <test-method status="PASS" signature="T001_VerifyDocumentNames()[pri:1, instance:tests.RedLineViewPageTest@47c62251]" name="T001_VerifyDocumentNames" duration-ms="13780" started-at="2019-11-14T17:31:19Z" description="Verify document names on Red Line View Page" finished-at="2019-11-14T17:31:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- T001_VerifyDocumentNames -->
+        <test-method status="PASS" signature="reportClose(java.lang.reflect.Method)[pri:0, instance:tests.RedLineViewPageTest@47c62251]" name="reportClose" is-config="true" duration-ms="5" started-at="2019-11-14T17:31:32Z" finished-at="2019-11-14T17:31:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.RedLineViewPageTest.T001_VerifyDocumentNames()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportClose -->
+        <test-method status="PASS" signature="startReport(java.lang.reflect.Method)[pri:0, instance:tests.RedLineViewPageTest@47c62251]" name="startReport" is-config="true" duration-ms="0" started-at="2019-11-14T17:31:32Z" finished-at="2019-11-14T17:31:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.RedLineViewPageTest.T001_VerifyMenuItems()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startReport -->
+        <test-method status="PASS" signature="T001_VerifyMenuItems()[pri:2, instance:tests.RedLineViewPageTest@47c62251]" name="T001_VerifyMenuItems" duration-ms="214" started-at="2019-11-14T17:31:32Z" description="Verify menu items on Red Line View Page" finished-at="2019-11-14T17:31:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- T001_VerifyMenuItems -->
+        <test-method status="PASS" signature="reportClose(java.lang.reflect.Method)[pri:0, instance:tests.RedLineViewPageTest@47c62251]" name="reportClose" is-config="true" duration-ms="0" started-at="2019-11-14T17:31:33Z" finished-at="2019-11-14T17:31:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.RedLineViewPageTest.T001_VerifyMenuItems()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportClose -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:tests.RedLineViewPageTest@47c62251]" name="tearDown" is-config="true" duration-ms="1647" started-at="2019-11-14T17:31:33Z" finished-at="2019-11-14T17:31:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.RedLineViewPageTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

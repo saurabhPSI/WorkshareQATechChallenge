@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="test">
+    <classes>
+      <class name="tests.LoginApplicationTest"/>
+      <class name="tests.InspectionFormTest"/>
+      <class name="tests.ThirdPartyPageTest"/>
+    </classes>
+  </test> <!-- test -->
+  <test name="test(failed)">
+    <classes>
+      <class name="tests.ThirdPartyPageTest">
+        <methods>
+          <include name="initializePage"/>
+          <include name="reportClose"/>
+          <include name="startReport"/>
+        </methods>
+      </class> <!-- tests.ThirdPartyPageTest -->
+      <class name="tests.InspectionFormTest">
+        <methods>
+          <include name="init"/>
+          <include name="reportClose"/>
+          <include name="startReport"/>
+        </methods>
+      </class> <!-- tests.InspectionFormTest -->
+      <class name="tests.LoginApplicationTest">
+        <methods>
+          <include name="inValidloginAdminPassword"/>
+          <include name="inValidloginApplication"/>
+          <include name="showReport"/>
+          <include name="initialization"/>
+          <include name="reportClose"/>
+          <include name="initializePage"/>
+          <include name="startReport"/>
+        </methods>
+      </class> <!-- tests.LoginApplicationTest -->
+    </classes>
+  </test> <!-- test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
